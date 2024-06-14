@@ -1,0 +1,49 @@
+/* Write your code here. */
+
+.app-cont {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 5px;
+  height: 100vh;
+  width: 100vww;
+  align-items: center;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block1-cont {
+  background-color: white;
+  color: #1d976c;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  width: 20vw;
+  margin: 3vh;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+label {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+img {
+  height: 60vh;
+  width: 40vw;
+}
+
+input{
+  background-color: transparent;
+}
